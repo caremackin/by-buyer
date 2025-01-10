@@ -4,12 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar'
 import Homepage from './pages/homepage'
+import Signuppage from './pages/signuppage'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <Homepage />
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/signup" element= {<Signuppage />} />
+    </Routes>
   );
 }
 
