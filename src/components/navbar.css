@@ -1,0 +1,75 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  position: fixed; /* Makes the navbar stay at the top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the screen */
+  z-index: 1000; /* Ensures it stays above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a 3D effect */
+}
+
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin-right: 50px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+.mobile-menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+
+.nav-links-mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  right: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  list-style: none;
+  width: auto; /* Can adjust width for mobile view */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+}
