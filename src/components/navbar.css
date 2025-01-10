@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: white;
+  background-color: #fbfbfb;
+  color: rgb(9, 7, 7);
   padding: 10px 20px;
   position: fixed; /* Makes the navbar stay at the top when scrolling */
   top: 0;
@@ -30,7 +30,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   transition: color 0.3s;
 }
@@ -45,7 +45,7 @@
   cursor: pointer;
   background: none;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 

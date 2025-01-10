@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/navbar'
 import Homepage from './pages/homepage'
 import Signuppage from './pages/signuppage'
+import Services from './pages/services'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/signup" element= {<Signuppage />} />
+      <Route path="/services" element= {<Services />} />
     </Routes>
   );
 }
