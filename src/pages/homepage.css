@@ -1,0 +1,28 @@
+
+  /* Make the main content a flex container */
+  .main-content {
+    display: flex;      /* Enable flexbox */
+    flex-direction: column; /* Arrange items in a column */
+    width: 100vw;      /* Full width of the viewport */
+    height: 100vh;     /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Full-width image */
+  .image {
+    width: 100%;    
+    height: 100vh;   /* Full height of the viewport */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    display: block;  /* Remove any space below the image */
+    margin: 0;       /* Remove any margins */
+  }
+  
+  /* Content styling */
+  .content {
+    padding: 20px;    /* Padding around the content */
+    background-color: #fff; /* Background color for the content */
+    text-align: center; /* Center the text */
+    flex-grow: 1;     /* Allow content to grow and fill remaining space */
+  }
+  
