@@ -7,6 +7,7 @@ import Homepage from './pages/homepage'
 import Signuppage from './pages/signuppage'
 import Services from './pages/services'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Aboutpage from './pages/about'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="/signup" element= {<Signuppage />} />
       <Route path="/services" element= {<Services />} />
+      <Route path="/about" element= {<Aboutpage />} />
     </Routes>
   );
 }
