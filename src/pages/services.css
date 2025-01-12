@@ -1,0 +1,104 @@
+
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.primary-info {
+    margin: 0 auto; /* Center horizontally if needed */
+    padding: 0;
+    min-width: 1000px;
+    position: relative; /* Default position if none is specified */
+    top: 50px
+  }
+  
+
+
+.services-section {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .services-section h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .services-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .services-list {
+    list-style-type: disc;
+    margin: 0 0 20px 20px;
+    padding: 0;
+  }
+  
+  .services-list li {
+    margin-bottom: 10px;
+  }
+  
+  .services-list li strong {
+    color: #2c3e50;
+  }
+
+/* General styling for the button container */
+.button-div {
+    display: flex;                  /* Align buttons horizontally */
+    justify-content: center;        /* Center buttons horizontally */
+    gap: 20px;                      /* Add space between the buttons */
+    margin: 20px 0;                 /* Add some margin around the buttons */
+  }
+  
+  /* General button styles */
+  .btn {
+    padding: 10px 20px;             /* Add padding inside the buttons */
+    font-size: 16px;                /* Set a readable font size */
+    font-weight: bold;              /* Make the text bold */
+    border: none;                   /* Remove default border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;               /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;  /* Smooth transition on hover */
+    height: 100px;
+    width: 400px;
+  }
+  
+  /* Red button style */
+  .red-btn {
+    background-color: rgb(220, 0, 0);;      /* Beautiful red color */
+    color: white;                   /* White text */
+  }
+  
+  /* Hover effect for buttons */
+  .red-btn:hover {
+    background-color: #c0392b;      /* Darker red when hovered */
+    transform: translateY(-2px);    /* Slight lift effect */
+  }
+  
+  /* Focus effect for accessibility */
+  .red-btn:focus {
+    outline: 3px solid #f39c12;     /* Gold outline when focused */
+    outline-offset: 2px;
+  }
+  
+  .comprehesive-marketing {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;                  /* Align buttons horizontally */
+    justify-content: center; 
+  }

@@ -3,7 +3,7 @@
   .main-content {
     display: flex;      /* Enable flexbox */
     flex-direction: column; /* Arrange items in a column */
-    width: 100vw;      /* Full width of the viewport */
+    width: 100vh;      /* Full width of the viewport */
     height: 100vh;     /* Full height of the viewport */
     margin: 0;
     padding: 0;
@@ -12,8 +12,7 @@
   /* Full-width image */
   .image {
     width: 100%;    
-    height: 50%;
-    /* height: 100vh;   Full height of the viewport */
+    height: 75vh;
     object-fit: cover; /* Ensure the image covers the area without distortion */
     display: block;  /* Remove any space below the image */
   }

@@ -9,10 +9,6 @@ const Homepage = () => {
     <Navbar />
     <main className="main-content">
       <img className="image" src={myImage} alt="Description of Image" />
-      <div className="content">
-        <p>Hello Homepage</p>
-        <p>Tagline</p>
-      </div>
     </main>
   </div>
   );

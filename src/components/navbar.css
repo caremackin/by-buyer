@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fbfbfb;
-  color: rgb(9, 7, 7);
+  color: rgb(220, 0, 0);
   padding: 10px 20px;
   position: fixed; /* Makes the navbar stay at the top when scrolling */
   top: 0;
